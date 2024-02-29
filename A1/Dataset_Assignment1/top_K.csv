@@ -1,0 +1,970 @@
+Topic_Num,Topic_Perc_Contrib,Keywords,Text
+0,0.9969,"image, it, can, based, be, method, network, approach, proposed, noise","  The unprecedented growth in the easy availability of photo-editing tools has
+endangered the power of digital images.An image was supposed to be worth more
+than a thousand wordsbut now this can be said only if it can be authenticated
+orthe integrity of the image can be proved to be intact. In thispaper we
+propose a digital image forensic technique for JPEG images. It can detect any
+forgery in the image if the forged portion called a ghost image is having a
+compression quality different from that of the cover image. It is based on
+resaving the JPEG image at different JPEG qualities and the detection of the
+forged portion is maximum when it is saved at the same JPEG quality as the
+cover image. Also we can precisely predictthe JPEG quality of the cover image
+by analyzing the similarity using Structural Similarity Index Measure (SSIM) or
+the energyof the images. The first maxima in SSIM or the first minima inenergy
+correspond to the cover image JPEG quality. We created adataset for varying
+JPEG compression qualities of the ghost and the cover images and validated the
+scalability of the experimental results.We also experimented with varied
+attack scenarios e.g. high-quality ghost image embedded in low quality of
+cover imagelow-quality ghost image embedded in high-quality of cover imageand
+ghost image and cover image both at the same quality.The proposed method is
+able to localize the tampered portions accurately even for forgeries as small
+as 10x10 sized pixel blocks.Our technique is also robust against other attack
+scenarios like copy-move forgery inserting text into image rescaling
+(zoom-out/zoom-in) ghost image and then pasting on cover image.
+"
+0,0.9962,"image, it, can, based, be, method, network, approach, proposed, noise","  Electroluminescence (EL) imaging is a useful modality for the inspection of
+photovoltaic (PV) modules. EL images provide high spatial resolution which
+makes it possible to detect even finest defects on the surface of PV modules.
+However the analysis of EL images is typically a manual process that is
+expensive time-consuming and requires expert knowledge of many different
+types of defects. In this work we investigate two approaches for automatic
+detection of such defects in a single image of a PV cell. The approaches differ
+in their hardware requirements which are dictated by their respective
+application scenarios. The more hardware-efficient approach is based on
+hand-crafted features that are classified in a Support Vector Machine (SVM). To
+obtain a strong performance we investigate and compare various processing
+variants. The more hardware-demanding approach uses an end-to-end deep
+Convolutional Neural Network (CNN) that runs on a Graphics Processing Unit
+(GPU). Both approaches are trained on 1968 cells extracted from high
+resolution EL intensity images of mono- and polycrystalline PV modules. The CNN
+is more accurate and reaches an average accuracy of 88.42%. The SVM achieves a
+slightly lower average accuracy of 82.44% but can run on arbitrary hardware.
+Both automated approaches make continuous highly accurate monitoring of PV
+cells feasible.
+"
+0,0.9956,"image, it, can, based, be, method, network, approach, proposed, noise","  We propose a convolutional neural network (CNN) architecture for image
+classification based on subband decomposition of the image using wavelets. The
+proposed architecture decomposes the input image spectra into multiple
+critically sampled subbands extracts features using a single CNN per subband
+and finally performs classification by combining the extracted features using
+a fully connected layer. Processing each of the subbands by an individual CNN
+thereby limiting the learning scope of each CNN to a single subband imposes a
+form of structural regularization. This provides better generalization
+capability as seen by the presented results. The proposed architecture achieves
+best-in-class performance in terms of total multiply-add-accumulator operations
+and nearly best-in-class performance in terms of total parameters required yet
+it maintains competitive classification performance. We also show the proposed
+architecture is more robust than the regular full-band CNN to noise caused by
+weight-and-bias quantization and input quantization.
+"
+0,0.9949,"image, it, can, based, be, method, network, approach, proposed, noise","  We show that for a nonnegative tensor a best nonnegative rank-r
+approximation is almost always unique its best rank-one approximation may
+always be chosen to be a best nonnegative rank-one approximation and that the
+set of nonnegative tensors with non-unique best rank-one approximations form an
+algebraic hypersurface. We show that the last part holds true more generally
+for real tensors and thereby determine a polynomial equation so that a real or
+nonnegative tensor which does not satisfy this equation is guaranteed to have a
+unique best rank-one approximation. We also establish an analogue for real or
+nonnegative symmetric tensors. In addition we prove a singular vector variant
+of the Perron--Frobenius Theorem for positive tensors and apply it to show that
+a best nonnegative rank-r approximation of a positive tensor can never be
+obtained by deflation. As an aside we verify that the Euclidean distance (ED)
+discriminants of the Segre variety and the Veronese variety are hypersurfaces
+and give defining equations of these ED discriminants.
+"
+0,0.8948,"image, it, can, based, be, method, network, approach, proposed, noise","  Feature preserving image interpolation is an active area in image processing
+field. In this paper a new direct edge directed image super-resolution
+algorithm based on structure tensors is proposed. Using an isotropic Gaussian
+filter the structure tensor at each pixel of the input image is computed and
+the pixels are classified to three distinct classes; uniform region corners
+and edges according to the eigenvalues of the structure tensor. Due to
+application of the isotropic Gaussian filter the classification is robust to
+noise presented in image. Based on the tangent eigenvector of the structure
+tensor the edge direction is determined and used for interpolation along the
+edges. In comparison to some previous edge directed image interpolation
+methods the proposed method achieves higher quality in both subjective and
+objective aspects. Also the proposed method outperforms previous methods in
+case of noisy and JPEG compressed images. Furthermore without the need for
+optimization in the process the algorithm can achieve higher speed.
+"
+1,0.9976,"object, method, image, network, segmentation, feature, detection, deep, our, which","  Moving object segmentation is a crucial task for autonomous vehicles as it
+can be used to segment objects in a class agnostic manner based on their motion
+cues. It enables the detection of unseen objects during training (e.g. moose
+or a construction truck) based on their motion and independent of their
+appearance. Although pixel-wise motion segmentation has been studied in
+autonomous driving literature it has been rarely addressed at the instance
+level which would help separate connected segments of moving objects leading
+to better trajectory planning. As the main issue is the lack of large public
+datasets we create a new InstanceMotSeg dataset comprising of 12.9K samples
+improving upon our KITTIMoSeg dataset. In addition to providing instance level
+annotations we have added 4 additional classes which is crucial for studying
+class agnostic motion segmentation. We adapt YOLACT and implement a
+motion-based class agnostic instance segmentation model which would act as a
+baseline for the dataset. We also extend it to an efficient multi-task model
+which additionally provides semantic instance segmentation sharing the encoder.
+The model then learns separate prototype coefficients within the class agnostic
+and semantic heads providing two independent paths of object detection for
+redundant safety. To obtain real-time performance we study different efficient
+encoders and obtain 39 fps on a Titan Xp GPU using MobileNetV2 with an
+improvement of 10% mAP relative to the baseline. Our model improves the
+previous state of the art motion segmentation method by 3.3%. The dataset and
+qualitative results video are shared in our website at
+https://sites.google.com/view/instancemotseg/.
+"
+1,0.9971,"object, method, image, network, segmentation, feature, detection, deep, our, which","  While generic object detection has achieved large improvements with rich
+feature hierarchies from deep nets detecting small objects with poor visual
+cues remains challenging. Motion cues from multiple frames may be more
+informative for detecting such hard-to-distinguish objects in each frame.
+However how to encode discriminative motion patterns such as deformations and
+pose changes that characterize objects has remained an open question. To learn
+them and thereby realize small object detection we present a neural model
+called the Recurrent Correlational Network where detection and tracking are
+jointly performed over a multi-frame representation learned through a single
+trainable and end-to-end network. A convolutional long short-term memory
+network is utilized for learning informative appearance change for detection
+while learned representation is shared in tracking for enhancing its
+performance. In experiments with datasets containing images of scenes with
+small flying objects such as birds and unmanned aerial vehicles the proposed
+method yielded consistent improvements in detection performance over deep
+single-frame detectors and existing motion-based detectors. Furthermore our
+network performs as well as state-of-the-art generic object trackers when it
+was evaluated as a tracker on the bird dataset.
+"
+1,0.997,"object, method, image, network, segmentation, feature, detection, deep, our, which","  Understanding chest CT imaging of the coronavirus disease 2019 (COVID-19)
+will help detect infections early and assess the disease progression.
+Especially automated severity assessment of COVID-19 in CT images plays an
+essential role in identifying cases that are in great need of intensive
+clinical care. However it is often challenging to accurately assess the
+severity of this disease in CT images due to variable infection regions in the
+lungs similar imaging biomarkers and large inter-case variations. To this
+end we propose a synergistic learning framework for automated severity
+assessment of COVID-19 in 3D CT images by jointly performing lung lobe
+segmentation and multi-instance classification. Considering that only a few
+infection regions in a CT image are related to the severity assessment we
+first represent each input image by a bag that contains a set of 2D image
+patches (with each cropped from a specific slice). A multi-task multi-instance
+deep network (called M$^2$UNet) is then developed to assess the severity of
+COVID-19 patients and also segment the lung lobe simultaneously. Our M$^2$UNet
+consists of a patch-level encoder a segmentation sub-network for lung lobe
+segmentation and a classification sub-network for severity assessment (with a
+unique hierarchical multi-instance learning strategy). Here the context
+information provided by segmentation can be implicitly employed to improve the
+performance of severity assessment. Extensive experiments were performed on a
+real COVID-19 CT image dataset consisting of 666 chest CT images with results
+suggesting the effectiveness of our proposed method compared to several
+state-of-the-art methods.
+"
+1,0.9967,"object, method, image, network, segmentation, feature, detection, deep, our, which","  In this paper we propose a novel approach for learning multi-label
+classifiers with the help of privileged information. Specifically we use
+similarity constraints to capture the relationship between available
+information and privileged information and use ranking constraints to capture
+the dependencies among multiple labels. By integrating similarity constraints
+and ranking constraints into the learning process of classifiers the
+privileged information and the dependencies among multiple labels are exploited
+to construct better classifiers during training. A maximum margin classifier is
+adopted and an efficient learning algorithm of the proposed method is also
+developed. We evaluate the proposed method on two applications: multiple object
+recognition from images with the help of implicit information about object
+importance conveyed by the list of manually annotated image tags; and multiple
+facial action unit detection from low-resolution images augmented by
+high-resolution images. Experimental results demonstrate that the proposed
+method can effectively take full advantage of privileged information and
+dependencies among multiple labels for better object recognition and better
+facial action unit detection.
+"
+1,0.9967,"object, method, image, network, segmentation, feature, detection, deep, our, which","  Deep convolutional neural networks (CNNs) have delivered superior performance
+in many computer vision tasks. In this paper we propose a novel deep fully
+convolutional network model for accurate salient object detection. The key
+contribution of this work is to learn deep uncertain convolutional features
+(UCF) which encourage the robustness and accuracy of saliency detection. We
+achieve this via introducing a reformulated dropout (R-dropout) after specific
+convolutional layers to construct an uncertain ensemble of internal feature
+units. In addition we propose an effective hybrid upsampling method to reduce
+the checkerboard artifacts of deconvolution operators in our decoder network.
+The proposed methods can also be applied to other deep convolutional networks.
+Compared with existing saliency detection methods the proposed UCF model is
+able to incorporate uncertainties for more accurate object boundary inference.
+Extensive experiments demonstrate that our proposed saliency model performs
+favorably against state-of-the-art approaches. The uncertain feature learning
+mechanism as well as the upsampling method can significantly improve
+performance on other pixel-wise vision tasks.
+"
+2,0.9976,"model, language, text, system, task, based, word, our, data, it","  Multilingual Neural Machine Translation (MNMT) models are commonly trained on
+a joint set of bilingual corpora which is acutely English-centric (i.e. English
+either as the source or target language). While direct data between two
+languages that are non-English is explicitly available at times its use is not
+common. In this paper we first take a step back and look at the commonly used
+bilingual corpora (WMT) and resurface the existence and importance of implicit
+structure that existed in it: multi-way alignment across examples (the same
+sentence in more than two languages). We set out to study the use of multi-way
+aligned examples to enrich the original English-centric parallel corpora. We
+reintroduce this direct parallel data from multi-way aligned corpora between
+all source and target languages. By doing so the English-centric graph expands
+into a complete graph every language pair being connected. We call MNMT with
+such connectivity pattern complete Multilingual Neural Machine Translation
+(cMNMT) and demonstrate its utility and efficacy with a series of experiments
+and analysis. In combination with a novel training data sampling strategy that
+is conditioned on the target language only cMNMT yields competitive
+translation quality for all language pairs. We further study the size effect of
+multi-way aligned data its transfer learning capabilities and how it eases
+adding a new language in MNMT. Finally we stress test cMNMT at scale and
+demonstrate that we can train a cMNMT model with up to 111*112=12432 language
+pairs that provides competitive translation quality for all language pairs.
+"
+2,0.9972,"model, language, text, system, task, based, word, our, data, it","  One of the hardest problems in the area of Natural Language Processing and
+Artificial Intelligence is automatically generating language that is coherent
+and understandable to humans. Teaching machines how to converse as humans do
+falls under the broad umbrella of Natural Language Generation. Recent years
+have seen unprecedented growth in the number of research articles published on
+this subject in conferences and journals both by academic and industry
+researchers. There have also been several workshops organized alongside
+top-tier NLP conferences dedicated specifically to this problem. All this
+activity makes it hard to clearly define the state of the field and reason
+about its future directions. In this work we provide an overview of this
+important and thriving area covering traditional approaches statistical
+approaches and also approaches that use deep neural networks. We provide a
+comprehensive review towards building open domain dialogue systems an
+important application of natural language generation. We find that
+predominantly the approaches for building dialogue systems use seq2seq or
+language models architecture. Notably we identify three important areas of
+further research towards building more effective dialogue systems: 1)
+incorporating larger context including conversation context and world
+knowledge; 2) adding personae or personality in the NLG system; and 3)
+overcoming dull and generic responses that affect the quality of
+system-produced responses. We provide pointers on how to tackle these open
+problems through the use of cognitive architectures that mimic human language
+understanding and generation capabilities.
+"
+2,0.9971,"model, language, text, system, task, based, word, our, data, it","  In this paper we propose a three-stage training methodology to improve the
+speech recognition accuracy of low-resource languages. We explore and propose
+an effective combination of techniques such as transfer learning encoder
+freezing data augmentation using Text-To-Speech (TTS) and Semi-Supervised
+Learning (SSL). To improve the accuracy of a low-resource Italian ASR we
+leverage a well-trained English model unlabeled text corpus and unlabeled
+audio corpus using transfer learning TTS augmentation and SSL respectively.
+In the first stage we use transfer learning from a well-trained English model.
+This primarily helps in learning the acoustic information from a resource-rich
+language. This stage achieves around 24% relative Word Error Rate (WER)
+reduction over the baseline. In stage two We utilize unlabeled text data via
+TTS data-augmentation to incorporate language information into the model. We
+also explore freezing the acoustic encoder at this stage. TTS data augmentation
+helps us further reduce the WER by ~ 21% relatively. Finally In stage three we
+reduce the WER by another 4% relative by using SSL from unlabeled audio data.
+Overall our two-pass speech recognition system with a Monotonic Chunkwise
+Attention (MoChA) in the first pass and a full-attention in the second pass
+achieves a WER reduction of ~ 42% relative to the baseline.
+"
+2,0.9969,"model, language, text, system, task, based, word, our, data, it","  Healthcare organizations are in a continuous effort to improve health
+outcomes reduce costs and enhance patient experience of care. Data is
+essential to measure and help achieving these improvements in healthcare
+delivery. Consequently a data influx from various clinical financial and
+operational sources is now overtaking healthcare organizations and their
+patients. The effective use of this data however is a major challenge.
+Clearly text is an important medium to make data accessible. Financial reports
+are produced to assess healthcare organizations on some key performance
+indicators to steer their healthcare delivery. Similarly at a clinical level
+data on patient status is conveyed by means of textual descriptions to
+facilitate patient review shift handover and care transitions. Likewise
+patients are informed about data on their health status and treatments via
+text in the form of reports or via ehealth platforms by their doctors.
+Unfortunately such text is the outcome of a highly labour-intensive process if
+it is done by healthcare professionals. It is also prone to incompleteness
+subjectivity and hard to scale up to different domains wider audiences and
+varying communication purposes. Data-to-text is a recent breakthrough
+technology in artificial intelligence which automatically generates natural
+language in the form of text or speech from data. This chapter provides a
+survey of data-to-text technology with a focus on how it can be deployed in a
+healthcare setting. It will (1) give an up-to-date synthesis of data-to-text
+approaches (2) give a categorized overview of use cases in healthcare (3)
+seek to make a strong case for evaluating and implementing data-to-text in a
+healthcare setting and (4) highlight recent research challenges.
+"
+2,0.9963,"model, language, text, system, task, based, word, our, data, it","  Datasets are not only resources for training accurate deployable systems
+but are also benchmarks for developing new modeling approaches. While large
+natural datasets are necessary for training accurate systems are they
+necessary for driving modeling innovation? For example while the popular SQuAD
+question answering benchmark has driven the development of new modeling
+approaches could synthetic or smaller benchmarks have led to similar
+innovations?
+  This counterfactual question is impossible to answer but we can study a
+necessary condition: the ability for a benchmark to recapitulate findings made
+on SQuAD. We conduct a retrospective study of 20 SQuAD modeling approaches
+investigating how well 32 existing and synthesized benchmarks concur with SQuAD
+-- i.e. do they rank the approaches similarly? We carefully construct small
+targeted synthetic benchmarks that do not resemble natural language yet have
+high concurrence with SQuAD demonstrating that naturalness and size are not
+necessary for reflecting historical modeling improvements on SQuAD. Our results
+raise the intriguing possibility that small and carefully designed synthetic
+benchmarks may be useful for driving the development of new modeling
+approaches.
+"
+3,0.9975,"model, method, learning, our, from, image, based, video, approach, data","  One of the great promises of robot learning systems is that they will be able
+to learn from their mistakes and continuously adapt to ever-changing
+environments. Despite this potential most of the robot learning systems today
+are deployed as a fixed policy and they are not being adapted after their
+deployment. Can we efficiently adapt previously learned behaviors to new
+environments objects and percepts in the real world? In this paper we present
+a method and empirical evidence towards a robot learning framework that
+facilitates continuous adaption. In particular we demonstrate how to adapt
+vision-based robotic manipulation policies to new variations by fine-tuning via
+off-policy reinforcement learning including changes in background object
+shape and appearance lighting conditions and robot morphology. Further this
+adaptation uses less than 0.2% of the data necessary to learn the task from
+scratch. We find that our approach of adapting pre-trained policies leads to
+substantial performance gains over the course of fine-tuning and that
+pre-training via RL is essential: training from scratch or adapting from
+supervised ImageNet features are both unsuccessful with such small amounts of
+data. We also find that these positive results hold in a limited continual
+learning setting in which we repeatedly fine-tune a single lineage of policies
+using data from a succession of new tasks. Our empirical conclusions are
+consistently supported by experiments on simulated manipulation tasks and by
+52 unique fine-tuning experiments on a real robotic grasping system pre-trained
+on 580000 grasps.
+"
+3,0.9975,"model, method, learning, our, from, image, based, video, approach, data","  Person re-identification (re-ID) is a challenging problem especially when no
+labels are available for training. Although recent deep re-ID methods have
+achieved great improvement it is still difficult to optimize deep re-ID model
+without annotations in training data. To address this problem this study
+introduces a novel approach for unsupervised person re-ID by leveraging virtual
+and real data. Our approach includes two components: virtual person generation
+and training of deep re-ID model. For virtual person generation we learn a
+person generation model and a camera style transfer model using unlabeled real
+data to generate virtual persons with different poses and camera styles. The
+virtual data is formed as labeled training data enabling subsequently training
+deep re-ID model in supervision. For training of deep re-ID model we divide it
+into three steps: 1) pre-training a coarse re-ID model by using virtual data;
+2) collaborative filtering based positive pair mining from the real data; and
+3) fine-tuning of the coarse re-ID model by leveraging the mined positive pairs
+and virtual data. The final re-ID model is achieved by iterating between step 2
+and step 3 until convergence. Experimental results on two large-scale datasets
+Market-1501 and DukeMTMC-reID demonstrate the effectiveness of our approach
+and shows that the state of the art is achieved in unsupervised person re-ID.
+"
+3,0.9973,"model, method, learning, our, from, image, based, video, approach, data","  The goal of this paper is to self-train a 3D convolutional neural network on
+an unlabeled video collection for deployment on small-scale video collections.
+As smaller video datasets benefit more from motion than appearance we strive
+to train our network using optical flow but avoid its computation during
+inference. We propose the first motion-augmented self-training regime we call
+MotionFit. We start with supervised training of a motion model on a small and
+labeled video collection. With the motion model we generate pseudo-labels for
+a large unlabeled video collection which enables us to transfer knowledge by
+learning to predict these pseudo-labels with an appearance model. Moreover we
+introduce a multi-clip loss as a simple yet efficient way to improve the
+quality of the pseudo-labeling even without additional auxiliary tasks. We
+also take into consideration the temporal granularity of videos during
+self-training of the appearance model which was missed in previous works. As a
+result we obtain a strong motion-augmented representation model suited for
+video downstream tasks like action recognition and clip retrieval. On
+small-scale video datasets MotionFit outperforms alternatives for knowledge
+transfer by 5%-8% video-only self-supervision by 1%-7% and semi-supervised
+learning by 9%-18% using the same amount of class labels.
+"
+3,0.9973,"model, method, learning, our, from, image, based, video, approach, data","  This paper proposes a self-supervised learning method for the person
+re-identification (re-ID) problem where existing unsupervised methods usually
+rely on pseudo labels such as those from video tracklets or clustering. A
+potential drawback of using pseudo labels is that errors may accumulate and it
+is challenging to estimate the number of pseudo IDs. We introduce a different
+unsupervised method that allows us to learn pedestrian embeddings from raw
+videos without resorting to pseudo labels. The goal is to construct a
+self-supervised pretext task that matches the person re-ID objective. Inspired
+by the emphdata association concept in multi-object tracking we propose the
+textbfCycle textbfAssociation (textbfCycAs) task: after performing
+data association between a pair of video frames forward and then backward a
+pedestrian instance is supposed to be associated to itself. To fulfill this
+goal the model must learn a meaningful representation that can well describe
+correspondences between instances in frame pairs. We adapt the discrete
+association process to a differentiable form such that end-to-end training
+becomes feasible. Experiments are conducted in two aspects: We first compare
+our method with existing unsupervised re-ID methods on seven benchmarks and
+demonstrate CycAs' superiority. Then to further validate the practical value
+of CycAs in real-world applications we perform training on self-collected
+videos and report promising performance on standard test sets.
+"
+3,0.9972,"model, method, learning, our, from, image, based, video, approach, data","  Modeling 3D humans accurately and robustly from a single image is very
+challenging and the key for such an ill-posed problem is the 3D representation
+of the human models. To overcome the limitations of regular 3D representations
+we propose Parametric Model-Conditioned Implicit Representation (PaMIR) which
+combines the parametric body model with the free-form deep implicit function.
+In our PaMIR-based reconstruction framework a novel deep neural network is
+proposed to regularize the free-form deep implicit function using the semantic
+features of the parametric model which improves the generalization ability
+under the scenarios of challenging poses and various clothing topologies.
+Moreover a novel depth-ambiguity-aware training loss is further integrated to
+resolve depth ambiguities and enable successful surface detail reconstruction
+with imperfect body reference. Finally we propose a body reference
+optimization method to improve the parametric model estimation accuracy and to
+enhance the consistency between the parametric model and the implicit function.
+With the PaMIR representation our framework can be easily extended to
+multi-image input scenarios without the need of multi-camera calibration and
+pose synchronization. Experimental results demonstrate that our method achieves
+state-of-the-art performance for image-based 3D human reconstruction in the
+cases of challenging poses and clothing types.
+"
+4,0.9971,"image, model, training, data, adversarial, our, learning, network, method, from","  Despite the significant advances in recent years Generative Adversarial
+Networks (GANs) are still notoriously hard to train. In this paper we propose
+three novel curriculum learning strategies for training GANs. All strategies
+are first based on ranking the training images by their difficulty scores
+which are estimated by a state-of-the-art image difficulty predictor. Our first
+strategy is to divide images into gradually more difficult batches. Our second
+strategy introduces a novel curriculum loss function for the discriminator that
+takes into account the difficulty scores of the real images. Our third strategy
+is based on sampling from an evolving distribution which favors the easier
+images during the initial training stages and gradually converges to a uniform
+distribution in which samples are equally likely regardless of difficulty. We
+compare our curriculum learning strategies with the classic training procedure
+on two tasks: image generation and image translation. Our experiments indicate
+that all strategies provide faster convergence and superior results. For
+example our best curriculum learning strategy applied on spectrally normalized
+GANs (SNGANs) fooled human annotators in thinking that generated CIFAR-like
+images are real in 25.0% of the presented cases while the SNGANs trained using
+the classic procedure fooled the annotators in only 18.4% cases. Similarly in
+image translation the human annotators preferred the images produced by the
+Cycle-consistent GAN (CycleGAN) trained using curriculum learning in 40.5%
+cases and those produced by CycleGAN based on classic training in only 19.8%
+cases 39.7% cases being labeled as ties.
+"
+4,0.9967,"image, model, training, data, adversarial, our, learning, network, method, from","  Successfully training Variational Autoencoders (VAEs) with a hierarchy of
+discrete latent variables remains an area of active research.
+  Vector-Quantised VAEs are a powerful approach to discrete VAEs but naive
+hierarchical extensions can be unstable when training. Leveraging insights from
+classical methods of inference we introduce textitRelaxed-Responsibility
+Vector-Quantisation a novel way to parameterise discrete latent variables a
+refinement of relaxed Vector-Quantisation that gives better performance and
+more stable training. This enables a novel approach to hierarchical discrete
+variational autoencoders with numerous layers of latent variables (here up to
+32) that we train end-to-end. Within hierarchical probabilistic deep generative
+models with discrete latent variables trained end-to-end we achieve
+state-of-the-art bits-per-dim results for various standard datasets. % Unlike
+discrete VAEs with a single layer of latent variables we can produce samples
+by ancestral sampling: it is not essential to train a second autoregressive
+generative model over the learnt latent representations to then sample from and
+then decode. % Moreover that latter approach in these deep hierarchical models
+would require thousands of forward passes to generate a single sample. Further
+we observe different layers of our model become associated with different
+aspects of the data.
+"
+4,0.9966,"image, model, training, data, adversarial, our, learning, network, method, from","  Variational autoencoders (VAEs) as an important aspect of generative models
+have received a lot of research interests and reached many successful
+applications. However it is always a challenge to achieve the consistency
+between the learned latent distribution and the prior latent distribution when
+optimizing the evidence lower bound (ELBO) and finally leads to an
+unsatisfactory performance in data generation. In this paper we propose a
+latent distribution consistency approach to avoid such substantial
+inconsistency between the posterior and prior latent distributions in ELBO
+optimizing. We name our method as latent distribution consistency VAE
+(LDC-VAE). We achieve this purpose by assuming the real posterior distribution
+in latent space as a Gibbs form and approximating it by using our encoder.
+However there is no analytical solution for such Gibbs posterior in
+approximation and traditional approximation ways are time consuming such as
+using the iterative sampling-based MCMC. To address this problem we use the
+Stein Variational Gradient Descent (SVGD) to approximate the Gibbs posterior.
+Meanwhile we use the SVGD to train a sampler net which can obtain efficient
+samples from the Gibbs posterior. Comparative studies on the popular image
+generation datasets show that our method has achieved comparable or even better
+performance than several powerful improvements of VAEs.
+"
+4,0.9966,"image, model, training, data, adversarial, our, learning, network, method, from","  In this paper we propose an approach to improve image captioning solution
+for images with novel objects that do not have caption labels in the training
+dataset. We refer to our approach as Partially-Supervised Novel Object
+Captioning (PS-NOC). PS-NOC is agnostic to model architecture and primarily
+focuses on the training approach that uses existing fully paired image-caption
+data and the images with only the novel object detection labels (partially
+paired data). We create synthetic paired captioning data for novel objects by
+leveraging context from existing image-caption pairs. We then create
+pseudo-label captions for partially paired images with novel objects and use
+this additional data to fine-tune the captioning model. We also propose a
+variant of SCST within PS-NOC called SCST-F1 that directly optimizes the
+F1-score of novel objects. Using a popular captioning model (Up-Down) as
+baseline PS-NOC sets new state-of-the-art results on held-out MS COCO
+out-of-domain test split i.e. 85.9 F1-score and 103.8 CIDEr. This is an
+improvement of 85.9 and 34.1 points respectively compared to baseline model
+that does not use partially paired data during training. We also perform
+detailed ablation studies to demonstrate the effectiveness of our approach.
+"
+4,0.9958,"image, model, training, data, adversarial, our, learning, network, method, from","  Classifiers used in the wild in particular for safety-critical systems
+should not only have good generalization properties but also should know when
+they don't know in particular make low confidence predictions far away from
+the training data. We show that ReLU type neural networks which yield a
+piecewise linear classifier function fail in this regard as they produce almost
+always high confidence predictions far away from the training data. For bounded
+domains like images we propose a new robust optimization technique similar to
+adversarial training which enforces low confidence predictions far away from
+the training data. We show that this technique is surprisingly effective in
+reducing the confidence of predictions far away from the training data while
+maintaining high confidence predictions and test error on the original
+classification task compared to standard training.
+"
+5,0.9972,"model, our, image, network, feature, task, show, attention, propose, dataset","  Zero-shot sketch-based image retrieval (ZS-SBIR) is a specific cross-modal
+retrieval task for searching natural images given free-hand sketches under the
+zero-shot scenario. Most existing methods solve this problem by simultaneously
+projecting visual features and semantic supervision into a low-dimensional
+common space for efficient retrieval. However such low-dimensional projection
+destroys the completeness of semantic knowledge in original semantic space so
+that it is unable to transfer useful knowledge well when learning semantic from
+different modalities. Moreover the domain information and semantic information
+are entangled in visual features which is not conducive for cross-modal
+matching since it will hinder the reduction of domain gap between sketch and
+image. In this paper we propose a Progressive Domain-independent Feature
+Decomposition (PDFD) network for ZS-SBIR. Specifically with the supervision of
+original semantic knowledge PDFD decomposes visual features into domain
+features and semantic ones and then the semantic features are projected into
+common space as retrieval features for ZS-SBIR. The progressive projection
+strategy maintains strong semantic supervision. Besides to guarantee the
+retrieval features to capture clean and complete semantic information the
+cross-reconstruction loss is introduced to encourage that any combinations of
+retrieval features and domain features can reconstruct the visual features.
+Extensive experiments demonstrate the superiority of our PDFD over
+state-of-the-art competitors.
+"
+5,0.9967,"model, our, image, network, feature, task, show, attention, propose, dataset","  Image aesthetic quality assessment has been a relatively hot topic during the
+last decade. Most recently comments type assessment (aesthetic captions) has
+been proposed to describe the general aesthetic impression of an image using
+text. In this paper we propose Aesthetic Attributes Assessment of Images
+which means the aesthetic attributes captioning. This is a new formula of image
+aesthetic assessment which predicts aesthetic attributes captions together
+with the aesthetic score of each attribute. We introduce a new dataset named
+emphDPC-Captions which contains comments of up to 5 aesthetic attributes of
+one image through knowledge transfer from a full-annotated small-scale dataset.
+Then we propose Aesthetic Multi-Attribute Network (AMAN) which is trained on
+a mixture of fully-annotated small-scale PCCD dataset and weakly-annotated
+large-scale DPC-Captions dataset. Our AMAN makes full use of transfer learning
+and attention model in a single framework. The experimental results on our
+DPC-Captions and PCCD dataset reveal that our method can predict captions of 5
+aesthetic attributes together with numerical score assessment of each
+attribute. We use the evaluation criteria used in image captions to prove that
+our specially designed AMAN model outperforms traditional CNN-LSTM model and
+modern SCA-CNN model of image captions.
+"
+5,0.9952,"model, our, image, network, feature, task, show, attention, propose, dataset","  We introduce a model for bidirectional retrieval of images and sentences
+through a multi-modal embedding of visual and natural language data. Unlike
+previous models that directly map images or sentences into a common embedding
+space our model works on a finer level and embeds fragments of images
+(objects) and fragments of sentences (typed dependency tree relations) into a
+common space. In addition to a ranking objective seen in previous work this
+allows us to add a new fragment alignment objective that learns to directly
+associate these fragments across modalities. Extensive experimental evaluation
+shows that reasoning on both the global level of images and sentences and the
+finer level of their respective fragments significantly improves performance on
+image-sentence retrieval tasks. Additionally our model provides interpretable
+predictions since the inferred inter-modal fragment alignment is explicit.
+"
+5,0.9948,"model, our, image, network, feature, task, show, attention, propose, dataset","  This paper investigates the problem of learning cross-lingual representations
+in a contextual space. We propose Cross-Lingual BERT Transformation (CLBT) a
+simple and efficient approach to generate cross-lingual contextualized word
+embeddings based on publicly available pre-trained BERT models (Devlin et al.
+2018). In this approach a linear transformation is learned from contextual
+word alignments to align the contextualized embeddings independently trained in
+different languages. We demonstrate the effectiveness of this approach on
+zero-shot cross-lingual transfer parsing. Experiments show that our embeddings
+substantially outperform the previous state-of-the-art that uses static
+embeddings. We further compare our approach with XLM (Lample and Conneau
+2019) a recently proposed cross-lingual language model trained with massive
+parallel data and achieve highly competitive results.
+"
+5,0.9933,"model, our, image, network, feature, task, show, attention, propose, dataset","  In this paper we present a transfer learning approach for music
+classification and regression tasks. We propose to use a pre-trained convnet
+feature a concatenated feature vector using the activations of feature maps of
+multiple layers in a trained convolutional network. We show how this convnet
+feature can serve as general-purpose music representation. In the experiments
+a convnet is trained for music tagging and then transferred to other
+music-related classification and regression tasks. The convnet feature
+outperforms the baseline MFCC feature in all the considered tasks and several
+previous approaches that are aggregating MFCCs as well as low- and high-level
+music features.
+"
+6,0.9969,"function, data, algorithm, from, method, sentence, be, set, it, in_this","  Background: Clinical guidelines and recommendations are the driving wheels of
+the evidence-based medicine (EBM) paradigm but these are available primarily
+as unstructured text and are generally highly heterogeneous in nature. This
+significantly reduces the dissemination and automatic application of these
+recommendations at the point of care. A comprehensive structured representation
+of these recommendations is highly beneficial in this regard. Objective: The
+objective of this paper to present Clinical Recommendation Type System (CRTS)
+a common type system that can effectively represent a clinical recommendation
+in a structured form. Methods: CRTS is built by analyzing 125 recommendations
+and 195 research articles corresponding to 6 different diseases available from
+UpToDate a publicly available clinical knowledge system and from the National
+Guideline Clearinghouse a public resource for evidence-based clinical practice
+guidelines. Results: We show that CRTS not only covers the recommendations but
+also is flexible to be extended to represent information from primary
+literature. We also describe how our developed type system can be applied for
+clinical decision support medical knowledge summarization and citation
+retrieval. Conclusion: We showed that our proposed type system is precise and
+comprehensive in representing a large sample of recommendations available for
+various disorders. CRTS can now be used to build interoperable information
+extraction systems that automatically extract clinical recommendations and
+related data elements from clinical evidence resources guidelines systematic
+reviews and primary publications.
+  Keywords: guidelines and recommendations type system clinical decision
+support evidence-based medicine information storage and retrieval
+"
+6,0.9968,"function, data, algorithm, from, method, sentence, be, set, it, in_this","  In a broad range of fields it may be desirable to reuse a supervised
+classification algorithm and apply it to a new data set. However
+generalization of such an algorithm and thus achieving a similar classification
+performance is only possible when the training data used to build the algorithm
+is similar to new unseen data one wishes to apply it to. It is often unknown in
+advance how an algorithm will perform on new unseen data being a crucial
+reason for not deploying an algorithm at all. Therefore tools are needed to
+measure the similarity of data sets. In this paper we propose the Data
+Representativeness Criterion (DRC) to determine how representative a training
+data set is of a new unseen data set. We present a proof of principle to see
+whether the DRC can quantify the similarity of data sets and whether the DRC
+relates to the performance of a supervised classification algorithm. We
+compared a number of magnetic resonance imaging (MRI) data sets ranging from
+subtle to severe difference is acquisition parameters. Results indicate that
+based on the similarity of data sets the DRC is able to give an indication as
+to when the performance of a supervised classifier decreases. The strictness of
+the DRC can be set by the user depending on what one considers to be an
+acceptable underperformance.
+"
+6,0.9962,"function, data, algorithm, from, method, sentence, be, set, it, in_this","  The Price equation describes the change in populations. Change concerns some
+value such as biological fitness information or physical work. The Price
+equation reveals universal aspects for the nature of change independently of
+the meaning ascribed to values. By understanding those universal aspects we
+can see more clearly why fundamental mathematical results in different
+disciplines often share a common form. We can also interpret more clearly the
+meaning of key results within each discipline. For example the mathematics of
+natural selection in biology has a form closely related to information theory
+and physical entropy. Does that mean that natural selection is about
+information or entropy? Or do natural selection information and entropy arise
+as interpretations of a common underlying abstraction? The Price equation
+suggests the latter. The Price equation achieves its abstract generality by
+partitioning change into two terms. The first term naturally associates with
+the direct forces that cause change. The second term naturally associates with
+the changing frame of reference. In the Price equation's canonical form total
+change remains zero because the conservation of total probability requires that
+all probabilities invariantly sum to one. Much of the shared common form for
+the mathematics of different disciplines may arise from that seemingly trivial
+invariance of total probability which leads to the partitioning of total
+change into equal and opposite components of the direct forces and the changing
+frame of reference.
+"
+6,0.9959,"function, data, algorithm, from, method, sentence, be, set, it, in_this","  Browsing news articles on multiple devices is now possible. The lengths of
+news article headlines have precise upper bounds dictated by the size of the
+display of the relevant device or interface. Therefore controlling the length
+of headlines is essential when applying the task of headline generation to news
+production. However because there is no corpus of headlines of multiple
+lengths for a given article previous research on controlling output length in
+headline generation has not discussed whether the system outputs could be
+adequately evaluated without multiple references of different lengths. In this
+paper we introduce two corpora which are Japanese News Corpus (JNC) and
+JApanese MUlti-Length Headline Corpus (JAMUL) to confirm the validity of
+previous evaluation settings. The JNC provides common supervision data for
+headline generation. The JAMUL is a large-scale evaluation dataset for
+headlines of three different lengths composed by professional editors. We
+report new findings on these corpora; for example although the longest length
+reference summary can appropriately evaluate the existing methods controlling
+output length this evaluation setting has several problems.
+"
+6,0.995,"function, data, algorithm, from, method, sentence, be, set, it, in_this","  A meaningful understanding of clinical protocols and patient pathways helps
+improve healthcare outcomes. Electronic health records (EHR) reflect real-world
+treatment behaviours that are used to enhance healthcare management but present
+challenges; protocols and pathways are often loosely defined and with elements
+frequently not recorded in EHRs complicating the enhancement. To solve this
+challenge healthcare objectives associated with healthcare management
+activities can be indirectly observed in EHRs as latent topics. Topic models
+such as Latent Dirichlet Allocation (LDA) are used to identify latent patterns
+in EHR data. However they do not examine the ordered nature of EHR sequences
+nor do they appraise individual events in isolation. Our novel approach the
+Categorical Sequence Encoder (CaSE) addresses these shortcomings. The
+sequential nature of EHRs is captured by CaSE's event-level representations
+revealing latent healthcare objectives. In synthetic EHR sequences CaSE
+outperforms LDA by up to 37% at identifying healthcare objectives. In the
+real-world MIMIC-III dataset CaSE identifies meaningful representations that
+could critically enhance protocol and pathway development.
+"
+7,0.9975,"channel, rate, number, bound, number_of, scheme, capacity, system, information, network","  Massive multiple-input multiple-output (MIMO) systems achieve high sum
+spectral efficiency by offering an order of magnitude increase in multiplexing
+gains. In time division duplexing systems however the reuse of uplink
+training pilots among cells results in additional channel estimation error
+which causes downlink inter-cell interference even when large numbers of
+antennas are employed. Handling this interference with conventional network
+MIMO techniques is challenging due to the large channel dimensionality.
+Further the implementation of large antenna precoding/combining matrices is
+associated with high hardware complexity and power consumption. In this paper
+we propose multi-layer precoding to enable efficient and low complexity
+operation in full-dimensional massive MIMO where a large number of antennas is
+used in two dimensions. In multi-layer precoding the precoding matrix of each
+base station is written as a product of a number of precoding matrices each
+one called a layer. Multi-layer precoding (i) leverages the directional
+characteristics of large-scale MIMO channels to manage inter-cell interference
+with low channel knowledge requirements and (ii) allows for an efficient
+implementation using low-complexity hybrid analog/digital architectures. We
+present a specific multi-layer precoding design for full-dimensional massive
+MIMO systems. The performance of this precoding design is analyzed and the
+per-user achievable rate is characterized for general channel models. The
+asymptotic optimality of the proposed multi-layer precoding design is then
+proved for some special yet important channels. Numerical simulations verify
+the analytical results and illustrate the potential gains of multi-layer
+precoding compared to traditional pilot-contaminated massive MIMO solutions.
+"
+7,0.9973,"channel, rate, number, bound, number_of, scheme, capacity, system, information, network","  Spatial interference avoidance is a simple and effective way of mitigating
+interference in multi-antenna wireless networks. The deployment of this
+technique requires channel-state information (CSI) feedback from each receiver
+to all interferers resulting in substantial network overhead. To address this
+issue this paper proposes the method of distributive control that
+intelligently allocates CSI bits over multiple feedback links and adapts
+feedback to channel dynamics. For symmetric channel distributions it is
+optimal for each receiver to equally allocate the average sum-feedback rate for
+different feedback links thereby decoupling their control. Using the criterion
+of minimum sum-interference power the optimal feedback-control policy is shown
+using stochastic-optimization theory to exhibit opportunism. Specifically a
+specific feedback link is turned on only when the corresponding transmit-CSI
+error is significant or interference-channel gain large and the optimal number
+of feedback bits increases with this gain. For high mobility and considering
+the sphere-cap-quantized-CSI model the optimal feedback-control policy is
+shown to perform water-filling in time where the number of feedback bits
+increases logarithmically with the corresponding interference-channel gain.
+Furthermore we consider asymmetric channel distributions with heterogeneous
+path losses and high mobility and prove the existence of a unique optimal
+policy for jointly controlling multiple feedback links. Given the
+sphere-cap-quantized-CSI model this policy is shown to perform water-filling
+over feedback links. Finally simulation demonstrates that feedback-control
+yields significant throughput gains compared with the conventional
+differential-feedback method.
+"
+7,0.9959,"channel, rate, number, bound, number_of, scheme, capacity, system, information, network","  The scaling of coherent and non-coherent channel capacity is studied in a
+single-input multiple-output (SIMO) block Rayleigh fading channel as both the
+bandwidth and the number of receiver antennas go to infinity jointly with the
+transmit power fixed. The transmitter has no channel state information (CSI)
+while the receiver may have genie-provided CSI (coherent receiver) or the
+channel statistics only (non-coherent receiver). Our results show that if the
+available bandwidth is smaller than a threshold bandwidth which is proportional
+(up to leading order terms) to the square root of the number of antennas there
+is no gap between the coherent capacity and the non-coherent capacity in terms
+of capacity scaling behavior. On the other hand when the bandwidth is larger
+than this threshold there is a capacity scaling gap. Since achievable rates
+using pilot symbols for channel estimation are subject to the non-coherent
+capacity bound this work reveals that pilot-assisted coherent receivers in
+systems with a large number of receive antennas are unable to exploit excess
+spectrum above a given threshold for capacity gain.
+"
+7,0.9959,"channel, rate, number, bound, number_of, scheme, capacity, system, information, network","  Due to stringent constraints on resources it may be infeasible to acquire
+the current channel state information at the transmitter in energy harvesting
+communication systems. In this paper we optimize an energy harvesting
+transmitter communicating over a slow fading channel using layered coding.
+The transmitter has access to the channel statistics but does not know the
+exact channel state. In layered coding the codewords are first designed for
+each of the channel states at different rates and then the codewords are
+either time-multiplexed or superimposed before the transmission leading to two
+transmission strategies. The receiver then decodes the information adaptively
+based on the realized channel state. The transmitter is equipped with a
+finite-capacity battery having non-zero internal resistance. In each of the
+transmission strategies we first formulate and study an average rate
+maximization problem with non-causal knowledge of the harvested power
+variations. Further assuming statistical knowledge and causal information of
+the harvested power variations we propose a sub-optimal algorithm and compare
+with the stochastic dynamic programming based solution and a greedy policy.
+"
+7,0.9953,"channel, rate, number, bound, number_of, scheme, capacity, system, information, network","  In this paper we explore the benefits in the sense of total (sum rate)
+degrees of freedom (DOF) of cooperation and cognitive message sharing for a
+two-user multiple-input-multiple-output (MIMO) Gaussian interference channel
+with $M_1$ $M_2$ antennas at transmitters and $N_1$ $N_2$ antennas at
+receivers. For the case of cooperation (including cooperation at transmitters
+only at receivers only and at transmitters as well as receivers) the DOF is
+$min M_1+M_2 N_1+N_2 max(M_1 N_2)) max(M_2 N_1)$ which is the same
+as the DOF of the channel without cooperation. For the case of cognitive
+message sharing the DOF is $min M_1+M_2 N_1+N_2 (1-1_T2)((1-1_R2)
+max(M_1 N_2) + 1_R2 (M_1+N_2)) (1-1_T1)((1-1_R1) max(M_2 N_1) +
+1_R1 (M_2+N_1)) $ where $1_Ti = 1$ $(0)$ when transmitter $i$ is (is not)
+a cognitive transmitter and $1_Ri$ is defined in the same fashion. Our
+results show that while both techniques may increase the sum rate capacity of
+the MIMO interference channel only cognitive message sharing can increase the
+DOF. We also find that it may be more beneficial for a user to have a cognitive
+transmitter than to have a cognitive receiver.
+"
+8,0.9972,"algorithm, problem, proposed, network, it, user, can, be, performance, based","  In this article we address the prospects and key enabling technologies for
+highly efficient and accurate device positioning and tracking in 5G radio
+access networks. Building on the premises of ultra-dense networks as well as on
+the adoption of multicarrier waveforms and antenna arrays in the access nodes
+(ANs) we first formulate extended Kalman filter (EKF)-based solutions for
+computationally efficient joint estimation and tracking of the time of arrival
+(ToA) and direction of arrival (DoA) of the user nodes (UNs) using uplink
+reference signals. Then a second EKF stage is proposed in order to fuse the
+individual DoA/ToA estimates from one or several ANs into a UN position
+estimate. Since all the processing takes place at the network side the
+computing complexity and energy consumption at the UN side are kept to a
+minimum. The cascaded EKFs proposed in this article also take into account the
+unavoidable relative clock offsets between UNs and ANs such that reliable
+clock synchronization of the access-link is obtained as a valuable by-product.
+The proposed cascaded EKF scheme is then revised and extended to more general
+and challenging scenarios where not only the UNs have clock offsets against the
+network time but also the ANs themselves are not mutually synchronized in
+time. Finally comprehensive performance evaluations of the proposed solutions
+on a realistic 5G network setup building on the METIS project based outdoor
+Madrid map model together with complete ray tracing based propagation modeling
+are provided. The obtained results clearly demonstrate that by using the
+developed methods sub-meter scale positioning and tracking accuracy of moving
+devices is indeed technically feasible in future 5G radio access networks
+operating at sub-6GHz frequencies despite the realistic assumptions related to
+clock offsets and potentially even under unsynchronized network elements.
+"
+8,0.9966,"algorithm, problem, proposed, network, it, user, can, be, performance, based","  One-bit radar performing signal sampling and quantization by a one-bit ADC
+is a promising technology for many civilian applications due to its low-cost
+and low-power consumptions. In this paper problems encountered by one-bit
+LFMCW radar are studied and a two-stage target detection method termed as the
+dimension-reduced generalized approximate message passing (DR-GAMP) approach is
+proposed. Firstly the spectrum of one-bit quantized signals in a scenario with
+multiple targets is analyzed. It is indicated that high-order harmonics may
+result in false alarms (FAs) and cannot be neglected. Secondly based on the
+spectrum analysis the DR-GAMP approach is proposed to carry out target
+detection. Specifically linear preprocessing methods and target predetection
+are firstly adopted to perform the dimension reduction and then the GAMP
+algorithm is utilized to suppress high-order harmonics and recover true
+targets. Finally numerical simulations are conducted to evaluate the
+performance of one-bit LFMCW radar under typical parameters. It is shown that
+compared to the conventional radar applying linear processing methods one-bit
+LFMCW radar has about $1.3$ dB performance gain when the input signal-to-noise
+ratios (SNRs) of targets are low. In the presence of a strong target it has
+about $1.0$ dB performance loss.
+"
+8,0.9964,"algorithm, problem, proposed, network, it, user, can, be, performance, based","  Motivated by mobile edge computing and wireless data centers we study a
+wireless distributed computing framework where the distributed nodes exchange
+information over a wireless interference network. Our framework follows the
+structure of MapReduce. This framework consists of Map Shuffle and Reduce
+phases where Map and Reduce are computation phases and Shuffle is a data
+transmission phase. In our setting we assume that the transmission is operated
+over a wireless interference network. We demonstrate that by duplicating the
+computation work at a cluster of distributed nodes in the Map phase one can
+reduce the amount of transmission load required for the Shuffle phase. In this
+work we characterize the fundamental tradeoff between computation load and
+communication load under the assumption of one-shot linear schemes. The
+proposed scheme is based on side information cancellation and zero-forcing and
+we prove that it is optimal in terms of computation-communication tradeoff. The
+proposed scheme outperforms the naive TDMA scheme with single node transmission
+at a time as well as the coded TDMA scheme that allows coding across data in
+terms of the computation-communication tradeoff.
+"
+8,0.9964,"algorithm, problem, proposed, network, it, user, can, be, performance, based","  In this paper we propose a distributed iterated hard thresholding algorithm
+termed DiFIGHT over a network that is built on the diffusion mechanism and also
+propose a modification of the proposed algorithm termed MoDiFIGHT that has
+low complexity in terms of communication in the network. We additionally
+propose four different strategies termed RP RNP RGP$_r$ and RGNP$_r$ that
+are used to randomly select a subset of nodes that are subsequently activated
+to take part in the distributed algorithm so as to reduce the mean number of
+communications during the run of the distributed algorithm. We present
+theoretical estimates of the long run communication per unit time for these
+different strategies when used by the two proposed algorithms. Also we
+present analysis of the two proposed algorithms and provide provable bounds on
+their recovery performance with or without using the random node selection
+strategies. Finally we use numerical studies to show that both when the random
+strategies are used as well as when they are not used the proposed algorithms
+display performances far superior to distributed IHT algorithm using consensus
+mechanism .
+"
+8,0.9961,"algorithm, problem, proposed, network, it, user, can, be, performance, based","  In this work and the supporting Parts II [2] and III [3] we provide a rather
+detailed analysis of the stability and performance of asynchronous strategies
+for solving distributed optimization and adaptation problems over networks. We
+examine asynchronous networks that are subject to fairly general sources of
+uncertainties such as changing topologies random link failures random data
+arrival times and agents turning on and off randomly. Under this model agents
+in the network may stop updating their solutions or may stop sending or
+receiving information in a random manner and without coordination with other
+agents. We establish in Part I conditions on the first and second-order moments
+of the relevant parameter distributions to ensure mean-square stable behavior.
+We derive in Part II expressions that reveal how the various parameters of the
+asynchronous behavior influence network performance. We compare in Part III the
+performance of asynchronous networks to the performance of both centralized
+solutions and synchronous networks. One notable conclusion is that the
+mean-square-error performance of asynchronous networks shows a degradation only
+of the order of $O(nu)$ where $nu$ is a small step-size parameter while the
+convergence rate remains largely unaltered. The results provide a solid
+justification for the remarkable resilience of cooperative networks in the face
+of random failures at multiple levels: agents links data arrivals and
+topology.
+"
+9,0.9971,"code, be, error, which, data, weight, new, can, paper, number","  Modern distributed computation infrastructures are often plagued by
+unavailabilities such as failing or slow servers. These unavailabilities
+adversely affect the tail latency of computation in distributed
+infrastructures. The simple solution of replicating computation entails
+significant resource overhead. Coded computation has emerged as a
+resource-efficient alternative wherein multiple units of data are encoded to
+create parity units and the function to be computed is applied to each of these
+units on distinct servers. A decoder can use the available function outputs to
+decode the unavailable ones. Existing coded computation approaches are resource
+efficient only for simple variants of linear functions such as multilinear
+with even the class of low degree polynomials requiring the same multiplicative
+overhead as replication for practically relevant straggler tolerance.
+  In this paper we present a new approach to model coded computation via the
+lens of locality of codes. We introduce a generalized notion of locality
+denoted computational locality building upon the locality of an appropriately
+defined code. We show that computational locality is equivalent to the required
+number of workers for coded computation and leverage results from the
+well-studied locality of codes to design coded computation schemes. We show
+that recent results on coded computation of multivariate polynomials can be
+derived using local recovering schemes for Reed-Muller codes. We present coded
+computation schemes for multivariate polynomials that adaptively exploit
+locality properties of input data-- an inadmissible technique under existing
+frameworks. These schemes require fewer workers than the lower bound under
+existing coded computation frameworks showing that the existing multiplicative
+overhead on the number of servers is not fundamental for coded computation of
+nonlinear functions.
+"
+9,0.9969,"code, be, error, which, data, weight, new, can, paper, number","  The purpose of this work is to develop a framework for single-subject
+analysis of diffusion tensor imaging (DTI) data. This framework (termed TOADDI)
+is capable of testing whether an individual tract as represented by the major
+eigenvector of the diffusion tensor and its corresponding angular dispersion
+are significantly different from a group of tracts on a voxel-by-voxel basis.
+This work develops two complementary statistical tests based on the elliptical
+cone of uncertainty (COU) which is a model of uncertainty or dispersion of the
+major eigenvector of the diffusion tensor. The orientation deviation test
+examines whether the major eigenvector from a single subject is within the
+average elliptical COU formed by a collection of elliptical COUs. The shape
+deviation test is based on the two-tailed Wilcoxon-Mann-Whitney two-sample test
+between the normalized shape measures (area and circumference) of the
+elliptical cones of uncertainty of the single subject against a group of
+controls. The False Discovery Rate (FDR) and False Non-discovery Rate (FNR)
+were incorporated in the orientation deviation test. The shape deviation test
+uses FDR only. TOADDI was found to be numerically accurate and statistically
+effective. Clinical data from two Traumatic Brain Injury (TBI) patients and one
+non-TBI subject were tested against the data obtained from a group of 45
+non-TBI controls to illustrate the application of the proposed framework in
+single-subject analysis. The frontal portion of the superior longitudinal
+fasciculus seemed to be implicated in both tests as significantly different
+from that of the control group. The TBI patients and the single non-TBI subject
+were well separated under the shape deviation test at the chosen FDR level of
+0.0005. TOADDI is a simple but novel geometrically based statistical framework
+for analyzing DTI data.
+"
+9,0.9961,"code, be, error, which, data, weight, new, can, paper, number","  This paper introduces a new counting code. Its design was motivated by
+distributed video coding where for decoding error correction methods are
+applied to improve predictions. Those error corrections sometimes fail which
+results in decoded values worse than the initial prediction. Our code exploits
+the fact that bit errors are relatively unlikely events: more than a few bit
+errors in a decoded pixel value are rare. With a carefully designed counting
+code combined with a prediction those bit errors can be corrected and sometimes
+the original pixel value recovered. The error correction improves
+significantly. Our new code not only maximizes the Hamming distance between
+adjacent (or ""near 1"") codewords but also between nearby (for example ""near 2"")
+codewords. This is why our code is significantly different from the well-known
+maximal counting sequences which have maximal average Hamming distance.
+Fortunately the new counting code can be derived from Gray Codes for every
+code word length (i.e. bit depth).
+"
+9,0.9955,"code, be, error, which, data, weight, new, can, paper, number","  We obtain a characterization on self-orthogonality for a given binary linear
+code in terms of the number of column vectors in its generator matrix which
+extends the result of Bouyukliev et al. (2006). As an application we give an
+algorithmic method to embed a given binary $k$-dimensional linear code
+$mathcalC$ ($k = 234$) into a self-orthogonal code of the shortest length
+which has the same dimension $k$ and minimum distance $d' ge d(mathcalC)$.
+For $k > 4$ we suggest a recursive method to embed a $k$-dimensional linear
+code to a self-orthogonal code. We also give new explicit formulas for the
+minimum distances of optimal self-orthogonal codes for any length $n$ with
+dimension 4 and any length $n notequiv 6131421222829 pmod31$ with
+dimension 5. We determine the exact optimal minimum distances of $[n4]$
+self-orthogonal codes which were left open by Li-Xu-Zhao (2008) when $n equiv
+0345101112 pmod15$. Then using MAGMA we observe that our embedding
+sends an optimal linear code to an optimal self-orthogonal code.
+"
+9,0.9955,"code, be, error, which, data, weight, new, can, paper, number","  This paper presents an algorithm for decoding homogeneous interleaved codes
+of high interleaving order in the rank metric. The new decoder is an adaption
+of the Hamming-metric decoder by Metzner and Kapturowski (1990) and guarantees
+to correct all rank errors of weight up to $d-2$ whose rank over the large base
+field of the code equals the number of errors where $d$ is the minimum rank
+distance of the underlying code. In contrast to previously-known decoding
+algorithms the new decoder works for any rank-metric code not only Gabidulin
+codes. It is purely based on linear-algebraic computations and has an explicit
+and easy-to-handle success condition. Furthermore a lower bound on the
+decoding success probability for random errors of a given weight is derived.
+The relation of the new algorithm to existing interleaved decoders in the
+special case of Gabidulin codes is given.
+"

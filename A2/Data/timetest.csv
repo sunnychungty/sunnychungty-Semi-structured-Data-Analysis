@@ -1,0 +1,6 @@
+user_id,item_id,rating,book_name,Name,pagesNumber,Publisher,CountsOfReview,PublishYear,Language,Authors,Rating,AuthorCount,PublisherCount,book_name_keyword
+0,0,5,Agile Web Development with Rails: A Pragmatic Guide,Agile Web Development with Rails: A Pragmatic Guide,558.0,Pragmatic Bookshelf,59.0,2005.0,eng,Dave Thomas,3.84,6.0,58.0,"['agile', 'web', 'development', 'with', 'rails', 'pragmatic', 'guide']"
+0,1,5,"The Restaurant at the End of the Universe (Hitchhiker's Guide to the Galaxy, #2)","The Restaurant at the End of the Universe (Hitchhiker's Guide to the Galaxy, #2)",250.0,Del Rey,3734.0,2005.0,eng,Douglas Adams,4.22,80.0,1407.0,"['the', 'restaurant', 'at', 'the', 'end', 'of', 'the', 'universe', 'hitchhiker', 'guide', 'to', 'the', 'galaxy']"
+0,2,5,Siddhartha,Siddhartha,96.0,Kessinger Publishing,73.0,2004.0,ger,Hermann Hesse,4.02,118.0,6630.0,['siddhartha']
+0,3,4,The Clock of the Long Now: Time and Responsibility,0,0.0,0,0.0,0.0,0,0,0.0,0.0,0.0,"['the', 'clock', 'of', 'the', 'long', 'now', 'time', 'and', 'responsibility']"
+0,4,5,"The Hunger Games (The Hunger Games, #1)","The Hunger Games (The Hunger Games, #1)",0.0,Scholastic Press,154447.0,2008.0,eng,Suzanne Collins,4.33,15.0,311.0,"['the', 'hunger', 'games', 'the', 'hunger', 'games']"
